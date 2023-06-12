@@ -1,0 +1,43 @@
+
+            .subscribe-button {
+                background-color: rgb(202, 15, 15);
+                border-color: rgb(202, 15, 15);
+                border-width: 1px;
+                color: white;
+            
+                height: 30px;
+                width: 100px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.25s, color 0.25s;
+                margin-right: 50px;
+            }
+            .new-button{
+                    color: rgb(0, 17, 255);
+                    background-color:#bee9db;
+                    border-style: solid;
+                    padding-right: 3px;
+                    padding-left: 3px;
+                    border-color: rgb(0, 38, 255);
+                    border-width: 1px;
+                    font-size: 17px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    font-weight: bold;
+                
+                    font-family:Verdana, Geneva, Tahoma, sans-serif;
+                    transition: opacity 0.5s;
+                    
+                }
+            
+            .subscribe-button:hover{
+            border-color: rgb(202, 15, 15);
+            background-color: white;
+            color: rgb(202, 15, 15);
+            
+            }
+            .new-button:hover{
+                opacity: 0.5;
+                box-shadow: 3px 3px 10px rgb(0 0 0 );
+            }
+            
